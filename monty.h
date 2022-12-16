@@ -1,4 +1,4 @@
-fndef _MONTY_H_
+#ifndef _MONTY_H_
 #define _MONTY_H_
 
 #include <stdio.h>
@@ -22,3 +22,5 @@ typedef struct stack_s
 	struct stack_s *prev;
 	struct stack_s *next;
 } stack_t;
+
+#endif /*_MONTY_H_ */
